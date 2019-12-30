@@ -31,3 +31,4 @@ python manage.py runserver
 |/api/posts/[id]|`GET`|특정 id의 글을 조회합니다.||{Post}|
 |/api/posts/[id]|`DELETE`|특정 id의 글을 삭제합니다.|||
 
+# NPoem
