@@ -1,0 +1,18 @@
+import axios from 'axios'
+
+axios.defaults.baseURL = "http://127.0.0.1:8000/api"
+
+export default{
+    getAllPosts(){
+        return axios.get('/posts/')
+    },
+    createID(data){
+        return axios.post('/posts/',data)
+    },
+    putWord(id,data){
+        return axios.put('/posts/'+String(id),data)
+    },
+    putContent(id,data){
+        return axios.put('/posts/'+String(id),data)
+    },
+}
