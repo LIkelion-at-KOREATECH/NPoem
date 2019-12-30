@@ -26,8 +26,23 @@ padding-right: 12rem;
   margin-top:5rem;
 }
 #card-width{
-  width:30rem;
+  width:60%;
+}
+.card-width-text{
+  width:60%;
+  height: 4rem;
 }
 .content-width{
   width:100%;
+}
+.timer-div{
+  width:60%;
+  height: 8rem;
+  background-color: rgba(36, 34, 34, 0.705);
+  border-radius:5px;
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+.endfont{
+  color:#DE6262;
 }

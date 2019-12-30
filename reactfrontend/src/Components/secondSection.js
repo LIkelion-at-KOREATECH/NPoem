@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from '@material-ui/core/Button';
@@ -11,12 +11,12 @@ import TextField from '@material-ui/core/TextField';
 
 
 export default {
-
+   // test(ID){return(ID+"야")},
     showSecondSec(userID) {
         return (
             <div className="login-sec">
                 <div className="row justify-content-md-center">
-                    <h2 className="text-center">삼행시를 하는, {userID}</h2>
+                    <h2 className="text-center">삼행시를 하는, {this.state.userID}</h2>
                 </div>
                 <br></br>
                 <div className="row justify-content-md-center">
@@ -68,3 +68,4 @@ export default {
         )
     }
 }
+
